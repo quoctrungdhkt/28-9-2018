@@ -19,10 +19,11 @@ int main(){
     scanf("%d", &luachon);
     //
 if(luachon == 1) {
-    //
-    printf("Chon phep cong");
+    printf("Tong hai so la: ");
+    ketqua = congHaiSo(a, b);
 } else if (luachon == 2) {
-    printf("Chon phep tru.");
+    printf("Hieu hai so la: ");
+    ketqua = truHaiSo(a, b);
 } else {
     printf("Lua chon sai.");
 }
