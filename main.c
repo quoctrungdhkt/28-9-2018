@@ -1,7 +1,10 @@
 #include <stdio.h>
 // Khai báo và định nghĩa hàm
 int congHaiSo(int x, int y) {
-    return x+y;
+    return x + y;
+}
+int truHaiSo(int x, int y) {
+        return x-y;
 }
 int main(){
     int a, b, ketqua, luachon;
@@ -15,8 +18,15 @@ int main(){
     printf("Nhap lua chon cua ban (1|2): \n");
     scanf("%d", &luachon);
     //
-
-    ketqua = congHaiSo(a, b);
-    printf("Tong cua %d va %d la %d", a, b, ketqua);
+if(luachon == 1) {
+    //
+    printf("Chon phep cong");
+} else if (luachon == 2) {
+    printf("Chon phep tru.");
+} else {
+    printf("Lua chon sai.");
+}
+//    ketqua = congHaiSo(a, b);
+//    printf("Tong cua %d va %d la %d", a, b, ketqua);
     return 0;
 }
