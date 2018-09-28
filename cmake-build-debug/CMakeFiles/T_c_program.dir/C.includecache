@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Quoc Trung/CLionProjects/T-c program/main.c
+C:/Users/Quoc Trung/Desktop/congtru-2-so/main.c
 stdio.h
+-
+stdlib.h
 -
 
